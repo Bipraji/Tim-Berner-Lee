@@ -1,6 +1,7 @@
 body{
     margin=0;
     padding-top: 80px;
+    text-align: center;
 }
 
 .profile{
@@ -48,14 +49,14 @@ h2{
 }
 
 #name{
-    font-size:30px;
-    font-family: cursive;
-    line-height: 1.2
+    font-size:30px; 
+    line-height: 1.2;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 #bio{
     
-    padding-top: 600px;
+    padding-top: 1000px;
     text-align: center;
     font-size: 42px;
     
@@ -76,12 +77,12 @@ p{
 }
 
 .mnu{
-    z-index: 9999;
+    z-index: 10;
     list-style: none;
     font-family: cursive;
-    position: absolute;
+    position: fixed;
     top: 10px;
-    right: 60px;
+    right: 10px;
     cursor: pointer;
 }
 
