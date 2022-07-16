@@ -78,26 +78,50 @@ p{
 
 .mnu{
     z-index: 10;
-    list-style: none;
     font-family: cursive;
     position: fixed;
-    top: 10px;
-    right: 10px;
+    top:0px;
+    margin-top:0px;
+    background-color: white;
     cursor: pointer;
+    width: 100%;
+    
 }
 
 .limk{
-    float: left;
     color:darkcyan;
     font-family: sans-serif;
     font-size: 20px;
-    padding-top:5px;
-    padding-bottom: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
+    padding-left: 33px;
+    padding-right: 25px;
     display: inline;
 }
 
 .limk:hover{
-    background-color: aliceblue;
+    background-color: lightcyan;
+    text-decoration: underline;
+    font-size: 35px;
+}
+a{
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: 25px;
+    color:darkcyan;
+}
+
+#insid{
+    background-color: darkorange;
+}
+
+#insid iframe{
+    width:100%;
+}
+
+.con1 h3{
+    display:inline;
+}
+
+.con1 a{
+    color:antiquewhite;
+    text-shadow: none;
 }
